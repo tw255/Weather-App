@@ -66,7 +66,6 @@ struct Final:Decodable{
 
 class DataModel: InteractorToEntityProtocol{
     var interactor: EntityToInteractorProtocol?
-    //var weatherArr:[(String, Double, UIImage)] = []
     
     func parseData(data: Any,completion:@escaping(String,Double,UIImage,Double,Double,Double) -> ()){
         do {
@@ -81,7 +80,6 @@ class DataModel: InteractorToEntityProtocol{
             guard let clouds = weatherData.clouds.all else{return}
             
             let location = "\(city), \(country)"
-            //            guard let location = "\(weatherData.name), \(weatherData.sys.country)" else{return}
             interactor?.fetchIconData(icon:icon){image in
                 completion(location,temp,image,windSpeed,windDeg,clouds)
             }

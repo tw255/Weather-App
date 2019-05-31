@@ -151,8 +151,6 @@
 				E2ED1A6622A036760069B770 /* view */,
 				E2ED1A6722A0367B0069B770 /* presenter */,
 				E2ED1A6822A036880069B770 /* router */,
-				E2ED1A6922A0368D0069B770 /* interactor */,
-				E2ED1A6A22A036940069B770 /* entity */,
 			);
 			path = DetailedView;
 			sourceTree = "<group>";
@@ -187,20 +185,6 @@
 				E2ED1A8922A03EFB0069B770 /* DetailedRouter.swift */,
 			);
 			path = router;
-			sourceTree = "<group>";
-		};
-		E2ED1A6922A0368D0069B770 /* interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = interactor;
-			sourceTree = "<group>";
-		};
-		E2ED1A6A22A036940069B770 /* entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = entity;
 			sourceTree = "<group>";
 		};
 		E2ED1A6B22A036C30069B770 /* protocols */ = {

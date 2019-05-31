@@ -26,7 +26,5 @@ class DetailedRouter: DetailedPresenterToRouterProtocol{
         
         navigationController.pushViewController(detailedModule, animated: true)
     }
-    
-    
 }
 

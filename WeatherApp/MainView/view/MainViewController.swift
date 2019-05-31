@@ -59,12 +59,7 @@ class MainViewController: UIViewController,CLLocationManagerDelegate{
             presenter?.startFetchingData(usersLocation:"jersey+city,US")
         }
     }
-    
-    
 }
-
-
-
 extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return weatherList.count
